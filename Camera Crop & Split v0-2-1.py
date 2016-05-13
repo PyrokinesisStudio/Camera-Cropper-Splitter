@@ -81,9 +81,8 @@ class CropSplitPanel(bpy.types.Panel):
 		col_right = split.column(align=True)
 		cam = context.scene.camera
 		col_left.separator()
-		col_left.separator()
-		col_left.scale_y = 2
-		col_left.operator("cropper.set", text="Crop using borders", icon="OUTLINER_DATA_CAMERA")
+		col_left.scale_y = 3
+		col_left.operator("cropper.set", text="Crop using borders")
 		col_right.label(text="Split Camera over time :")
 		col_right.prop_menu_enum(cam, "my_tiles")
 		col_right.prop_menu_enum(cam, "tiling_order")
