@@ -9,7 +9,7 @@ bl_info = {
     "author": "Caetano Veyssières",
     "version": (0, 2),
     "blender": (2, 77, 0),
-    "location": "Properties > Render > Camera crop & split",
+    "location": "Properties > Render > Camera cropper & splitter",
     "warning": "", # used for warning icon and text in addons panel
     "tracker_url": "Not yet",
     "category": "Render"}
