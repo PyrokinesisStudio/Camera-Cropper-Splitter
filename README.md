@@ -1,6 +1,6 @@
 # Camera Cropper & splitter
 
-This Blender addon allows you to crop the camera view from your render borders or split the camera view in multiple tiles over time.
+This Blender addon allows you to convert your render borders to the actual camera view or split the camera view in multiple tiles over time.
 
 ![alt text](https://caetanoveyssieres.files.wordpress.com/2016/04/crop-atom-demo.png)
 
