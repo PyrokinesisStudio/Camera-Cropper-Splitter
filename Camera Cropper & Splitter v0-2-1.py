@@ -4,12 +4,12 @@
 ############# Add-on description (used by Blender)
 
 bl_info = {
-    "name": "Camera crop & split",
+    "name": "Camera cropper & splitter",
     "description": 'Allows to crop the camera view using the render borders or split the frame',
     "author": "Caetano Veyssières",
     "version": (0, 2, 1),
     "blender": (2, 77, 0),
-    "location": "Properties > Render > Camera crop & split",
+    "location": "Properties > Render > Camera cropper & splitter",
     "warning": "", # used for warning icon and text in addons panel
     "tracker_url": "Not yet",
     "category": "Render"}
