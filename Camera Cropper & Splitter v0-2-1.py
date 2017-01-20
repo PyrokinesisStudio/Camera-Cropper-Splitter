@@ -64,7 +64,7 @@ def findTilingOrder(key):
  
 # ▼ PANEL LAYOUT ▼
 class CropSplitPanel(bpy.types.Panel):
-	bl_label = "Camera Crop & Split"
+	bl_label = "Camera Cropper & Splitter"
 	bl_space_type = "PROPERTIES"
 	bl_region_type = "WINDOW"
 	bl_context = "render"
