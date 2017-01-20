@@ -25,6 +25,13 @@ With this addon, you can use the splitting feature of any renderfarm while rende
 * Enable it by checking the box in the Addons list (the addon’s name is “Camera crop & split”)
 * Now you should find it in the Render Properties
 
+## All current features :
+
+* **Crop using borders :** after defining a region with Ctrl+B in your active camera, this button changes the resolution and X-Y shift values of the camera to match the region you defined. The red rectangle you drew is now useless and most likely deformed. You can therefore disable it by unchecking "Border" in the render settings.
+* **Split :** will split your camera view in multiple tiles by dividing the render resolution and animating the X-Y camera shift values, depending on the number of tiles and tiling order you defined
+* **Number of tiles :** allows you to chose by how many tiles you want your frame to be divided
+* **Tiling order :** allows you to chose how the tiles should be animated. The indicated direction is the general movement, i.e. "Top to bottom" means "from Top left to top right, then once the line is finished go down". In the future I would like to use big icons with arrows to make this much easier to read and much more informative at the same time.
+
 ## Using the splitting feature :
 
 * Select the number of tiles and tiling order and click on “Split”
