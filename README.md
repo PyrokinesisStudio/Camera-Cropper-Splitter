@@ -52,8 +52,9 @@ I also plan on adding a feature that combines the tiles automatically in either 
 
 ##Troubleshooting :
 
-* Ensure your camera shifts X and Y are set to zero before using the cropping or splitting feature
-* If that’s not the case (it should be by default), set the camera sensor fit to “auto” (under the camera settings)
+- Ensure your camera shifts X and Y are set to zero before using the cropping or splitting feature
+- Ensure the camera sensor fit is set to "auto" (under the camera settings) as it is by default.
+- Although it is very unlikely that your use case would go this far, remember that the Shift X and Y properties have a maximum value of 10. Splitting in 256 tiles generates a maximum shift of 7.5, so you can still add 2.5 to that.
 
 Tell me if you’re interested in getting more features, it will motivate me !
 
