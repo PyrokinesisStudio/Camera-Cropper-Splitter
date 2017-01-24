@@ -14,7 +14,7 @@ If you use a renderfarm or any network rendering setting to render your projects
 * in most cases, if you want to render a region (with ctrl+B) and still want to split your job, the farm won’t take in account your region and will render the entire frame (since it needs to use its own regions to split the job)
 * also, if you want to render very high-res images (4k, 8k or more) at a decent sampling quality, you may need to split the frames more than the farm allows you to.
 
-With this addon, you can use the splitting feature of any renderfarm while rendering a region (since the region is converted to become the actual camera), or you can increase the number of tiles by splitting the frame directly within Blender, thus multiplying your number of tiles by the number you set on the farm. You can even combine the cropping and splitting features ! (which I did for a project), though for the moment this scenario requires an little extra step to reposition the frame.
+With this addon, you can use the splitting feature of any renderfarm while rendering a region (since the region is converted to the actual camera), or you can increase the number of tiles by splitting the frame directly within Blender, thus multiplying your number of tiles by the number you set on the farm. You can even combine the cropping and splitting features ! (which I did for a project), though for the moment this scenario requires an little extra step to reposition the frame.
 
 ## Installing (regular python addon) :
 
