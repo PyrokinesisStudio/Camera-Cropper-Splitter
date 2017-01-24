@@ -10,7 +10,7 @@ My [5 min Blender conference 2016 talk](https://youtu.be/pBhRXLuI4FY?t=296) abou
 
 ## Why would I need this ?
 
-If you use a renderfarm or any network rendering setting to render your projects, chances are you need to split your frames in parts. Some renderfarms already do that, up to a certain point. But you can face 2 problems :
+If you use a renderfarm or any network rendering setting to render your projects, chances are you need to split your frames in parts. Some renderfarms already do that, but even so, you can still face 2 problems :
 * in most cases, if you want to render a region (with ctrl+B) and still want to split your job, the farm won’t take in account your region and will render the entire frame (since it needs to use its own regions to split the job)
 * also, if you want to render very high-res images (4k, 8k or more) at a decent sampling quality, you may need to split the frames more than the farm allows you to.
 
