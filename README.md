@@ -50,7 +50,7 @@ The good news is, once you make a node group to arrange your tiles, you can plug
 
 I also plan on adding a feature that combines the tiles automatically in either the Compositor or the Video editor, but I can’t tell yet when that will come.
 
-##Troubleshooting :
+## Troubleshooting :
 
 - Ensure your camera shifts X and Y are set to zero before using the cropping or splitting feature
 - Ensure the camera sensor fit is set to "auto" (under the camera settings) as it is by default.
