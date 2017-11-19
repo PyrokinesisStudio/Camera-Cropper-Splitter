@@ -4,9 +4,6 @@ This Blender add-on allows you to convert your render borders to the actual came
 
 ![alt text](https://caetanoveyssieres.files.wordpress.com/2016/04/crop-atom-demo.png)
 
-My [5 min Blender conference 2016 talk](https://youtu.be/pBhRXLuI4FY?t=296) about it :
-[![alt text](https://caetanoveyssieres.files.wordpress.com/2016/04/bcon.png?w=169&h=172)](https://youtu.be/pBhRXLuI4FY?t=296)
-
 
 ## Why would I need this ?
 
