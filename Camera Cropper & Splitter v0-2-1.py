@@ -22,10 +22,10 @@ import math
 
 # ▼ NUMBER OF TILES LIST ▼
 tilesNumber = [
-	('0', '2x2', 'Split in 4 tiles'), 
-	('1', '4x4', 'Split in 16 tiles'), 
-	('2', '8x8', 'Split in 64 tiles'),
-	('3', '16x16', 'Split in 256 tiles')]
+	('0', '2x2', 'Split in 4 tiles', 4), 
+	('1', '4x4', 'Split in 16 tiles', 16), 
+	('2', '8x8', 'Split in 64 tiles', 64),
+	('3', '16x16', 'Split in 256 tiles', 256)]
 	
 tilingOrder = [
 	('0', 'Left to Right', 'Left to Right'), 
@@ -50,7 +50,7 @@ setTilingOrder()
 
 def findTiles(key):
 	for n,tile in enumerate(tilesNumber):
-		(key1, name, description) = tile		
+		(key1, name, description,number) = tile		
 		if key == key1:
 			return n
 	raise NameError("Unrecognized key %s" % key)
@@ -111,8 +111,8 @@ class OBJECT_OT_SplitCamera(bpy.types.Operator):
 		# ▼ Variables for using the selected Number of tiles ▼
 		cam = context.scene.camera
 		n = findTiles(cam.my_tiles)
-		(key, name, description) = tilesNumber[n]
-		tiles = float(name)
+		(key, name, description,number) = tilesNumber[n]
+		tiles = float(number)
 		
 		# ▼ Variables for using the selected Tiling Order ▼
 		o = findTilingOrder(cam.tiling_order)
