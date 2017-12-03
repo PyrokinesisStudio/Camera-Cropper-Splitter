@@ -22,10 +22,10 @@ import math
 
 # ▼ NUMBER OF TILES LIST ▼
 tilesNumber = [
-	('0', '4', 'Split in 4 tiles'), 
-	('1', '16', 'Split in 16 tiles'), 
-	('2', '64', 'Split in 64 tiles'),
-	('3', '256', 'Split in 256 tiles')]
+	('0', '2x2', 'Split in 4 tiles'), 
+	('1', '4x4', 'Split in 16 tiles'), 
+	('2', '8x8', 'Split in 64 tiles'),
+	('3', '16x16', 'Split in 256 tiles')]
 	
 tilingOrder = [
 	('0', 'Left to Right', 'Left to Right'), 
