@@ -2,6 +2,8 @@
 
 This Blender add-on allows you to convert your render borders to the actual camera bounds or split the camera view in multiple tiles over time.
 
+![](https://chameleonscales.files.wordpress.com/2016/04/crop-atom-demo.png)
+
 ## Why would I need this ?
 
 If you use a renderfarm or any network rendering setup to render your projects, chances are you need to split your frames in parts. Some renderfarms already do that, but even so, you can still face 2 problems :
