@@ -18,8 +18,8 @@ With this addon, you can use the splitting feature of any renderfarm while rende
 * In Blender, open the User Preferences and go in the “Addons” tab
 * Click on “Install from file” at the bottom
 * Find the addon you downloaded
-* Enable it by checking the box in the Addons list (the addon’s name is “Camera crop & split”)
-* Now you should find it in the Render Properties
+* Enable it with the checkbox
+* You should now find it in the Render Properties
 
 ## All current features :
 
