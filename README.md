@@ -54,6 +54,6 @@ I also plan on adding a feature that combines the tiles automatically in either 
 
 Tell me if you’re interested in getting more features, it will motivate me !
 
-This addon was made on Blender 2.77a and was tested up until 2.79 (considering how basic it is at the moment, it should work for quite a while)
+This addon was made on Blender 2.77a and was tested up until 2.79
 
 ![](https://caetanoveyssieres.files.wordpress.com/2016/05/with-logo-composited.png?w=391&h=391)
