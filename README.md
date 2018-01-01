@@ -14,7 +14,7 @@ With this addon, you can use the splitting feature of any renderfarm while rende
 
 ## Installing (regular python addon) :
 
-* Save the raw [*Camera Cropper & Splitter v0-2-1.py*](https://github.com/ChameleonScales/Camera-Cropper-Splitter/raw/master/Camera%20Cropper%20%26%20Splitter%20v0-2-1.py) file anywhere on your computer
+* Save the raw [*Camera_Cropper_&_Splitter_v0_2_1.py*](https://raw.githubusercontent.com/ChameleonScales/Camera-Cropper-Splitter/master/Camera_Cropper_%26_Splitter_v0_2_1.py) file anywhere on your computer
 * In Blender, open the User Preferences and go in the “Addons” tab
 * Click on “Install from file” at the bottom
 * Find the addon you downloaded
