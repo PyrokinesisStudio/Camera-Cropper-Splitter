@@ -19,7 +19,7 @@ With this addon, you can use the splitting feature of any renderfarm while rende
 * Click on “Install from file” at the bottom
 * Find the addon you downloaded
 * Enable it with the checkbox
-* You should now find it in the Render Properties
+* You should now find the panel down in the Render Properties
 
 ## All current features :
 
