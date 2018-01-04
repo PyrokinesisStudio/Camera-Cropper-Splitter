@@ -11,7 +11,8 @@ bl_info = {
     "blender": (2, 77, 0),
     "location": "Properties > Render > Camera cropper & splitter",
     "warning": "", # used for warning icon and text in addons panel
-    "tracker_url": "Not yet",
+    "tracker_url": "https://github.com/ChameleonScales/Camera-Cropper-Splitter/issues",
+    "wiki_url": "https://github.com/ChameleonScales/Camera-Cropper-Splitter/blob/master/README.md",
     "category": "Render"}
 
 ##############
